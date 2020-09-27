@@ -2,7 +2,8 @@
 title: OpenTracksApp
 description: "OpenTracks is a sport tracking application that completely respects your privacy."
 baseurl: "/"
-url: "/"
+
+logo-url: "/static/img/opentracks-logo.svg"
 
 safe: true
 

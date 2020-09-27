@@ -3,9 +3,11 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>{% if page.title %}{{ page.title }}{% endif %} / {{ site.title }}</title>
+  <title>{{ site.title }}</title>
   <meta name="viewport" content="width=device-width">
   <meta name="description" content="{{ site.description }}">
+
+  <link rel="icon" type="svg+xml" href="{{ site.logo-url }}">
 
   <link rel="stylesheet" href="/static/main.css">
 
@@ -13,7 +15,13 @@
 </head>
 <body>
 
-  {{ content }}
+  {% include header.html %}
+
+  <div class="page-content">
+    <div class="wrap">
+      {{ content }}
+    </div>
+  </div>
 
 </body>
 </html>

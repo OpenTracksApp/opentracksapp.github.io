@@ -1,16 +1,91 @@
-.fullscreen {
-	position: fixed;
-	padding: 0;
-	margin: 0;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  font-size: 1em;
+  line-height: 1.5;
 
-    color: white;
-    background-color: #0E0E0E;
+  color: white;
+  background-color: #0E0E0E;
+
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover
+{
+  text-decoration: underline;
+}
+
+h1 {
+  margin-top: 5rem;
+}
+
+h3 {
+  margin-top: 3rem;
+}
+
+
+/* Site header */
+header {
+  border-top: 0.2em solid #333;
+  border-bottom: 0.1em solid #e8e8e8;
+  min-height: 3em;
+
+  margin: 0;
+}
+
+.site-title {
+  display: block;
+
+  float: left;
+  position: relative;
+  z-index: 1;
+
+  line-height: 4.5em;
+  font-weight: bold;
+}
+
+.site-nav {
+  float: right;
+  line-height: 4.5em;
+}
+
+.site-nav .menu-icon {
+  display: none;
+}
+
+.site-nav .page-link {
+  margin-left: 1em;
+}
+
+.wrap:before, .wrap:after {
+  content: "";
+  display: table;
+}
+
+.wrap:after {
+  clear: both;
+}
+
+.wrap {
+  max-width: 800px;
+  padding: 0 30px;
+  margin: 0 auto;
+  zoom: 1;
+}
+
+/* Page content */
+.page-content {
+  padding: 2em 0;
+}
+
+.on-line-logo {
+  height: 2rem;
+  vertical-align: middle;
 }
