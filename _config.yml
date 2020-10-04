@@ -1,7 +1,7 @@
 # Site settings
 title: OpenTracksApp
 description: "OpenTracks is a sport tracking application that completely respects your privacy."
-url: "https://www.OpenTracksApp.com"
+url: "https://OpenTracksApp.com"
 
 logo-url: "/static/img/opentracks-logo.svg"
 
