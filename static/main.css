@@ -6,15 +6,12 @@ html, body {
   font-size: 1em;
   line-height: 1.5;
 
-  color: white;
-  background-color: #0E0E0E;
-
   scroll-behavior: smooth;
 }
 
 a {
   text-decoration: none;
-  color: white;
+  color: black;
 }
 
 a:hover
@@ -30,10 +27,8 @@ h3 {
   margin-top: 3rem;
 }
 
-
 /* Site header */
 header {
-  border-top: 0.2em solid #333;
   border-bottom: 0.1em solid #e8e8e8;
   min-height: 3em;
 
@@ -58,6 +53,7 @@ header {
 
 .site-nav .menu-icon {
   display: none;
+  color: #505050;
 }
 
 .site-nav .page-link {
@@ -105,7 +101,6 @@ header {
   .site-nav .menu-icon {
     display: block;
     font-size: 1.5em;
-    color: #505050;
     float: right;
     width: 2em;
     text-align: center;
@@ -122,13 +117,20 @@ header {
     margin-bottom: 5px;
     display: none;
 
-    background-color: darkgray;
     border-radius: 5px;
-    box-shadow: 0.1em 0.1em #0E0E0E;
   }
 
   .site-nav:hover .trigger {
     display: block;
+    background-color: #FFCF99; /* Slightly ligher than holo accent color FF8800 */
+
+    border-radius: 5px;
+    box-shadow: 0.1em 0.1em #0E0E0E;
+  }
+  @media (prefers-color-scheme: dark) {
+    .site-nav:hover .trigger {
+      background-color: #FF8800 !important;
+    }
   }
 
   .site-nav .page-link {
@@ -138,4 +140,19 @@ header {
     padding: 5px 10px;
     margin: 0;
   }
+}
+
+@media (prefers-color-scheme: dark) {
+    html, body {
+      color: white;
+      background-color: #0E0E0E;
+    }
+
+    a {
+      color: white;
+    }
+
+    .site-nav .menu-icon svg path {
+      fill: white;
+    }
 }

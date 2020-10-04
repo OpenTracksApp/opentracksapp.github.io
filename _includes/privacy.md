@@ -1,4 +1,4 @@
-# [Privacy first, features second.](Privacy)
+# [Privacy](#Privacy)
 
 OpenTracks and OSM Dashboard:
 * _do not contain any in-app analytics_
