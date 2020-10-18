@@ -13,3 +13,5 @@
 ### <img src="/static/img/osmdashboard-logo.svg" class="on-line-logo"> _Theming_: style the maps how you like it
 
 ### <img src="/static/img/osmdashboard-logo.svg" class="on-line-logo"> _Compass_: shows your direction
+
+### <img src="/static/img/osmdashboard-offline-logo.svg" class="on-line-logo"> _Pure offline version_: for high privacy requirements there is a pure offline version available which doesn't have the permission to access the internet. <a href="https://f-droid.org/en/packages/de.storchp.opentracks.osmplugin.offline/">Download via F-Droid</a>.
