@@ -10,4 +10,6 @@ layout: default
 
 {% include privacy.md %}
 
+{% include nightlies.md %}
+
 <div style="height:10rem"></div>
