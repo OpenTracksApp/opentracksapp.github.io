@@ -4,6 +4,8 @@ layout: default
 
 {% include applinks.md %}
 
+{% include news.md %}
+
 {% include slogan.md %}
 
 {% include features.md %}
