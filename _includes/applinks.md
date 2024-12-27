@@ -3,7 +3,7 @@
     <h3>#OpenTracks</h3>
     <img src="{{ site.logo-url }}" style="width:10rem">
     <br>
-    <a class="page-link" href="https://f-droid.org/packages/de.dennisguse.opentracks"><img alt="Get it on F-Droid" src="https://fdroid.gitlab.io/artwork/badge/get-it-on.png" style="height: 4rem;vertical-align: middle;"></a>
+    <a class="page-link" href="https://f-droid.org/packages/de.dennisguse.opentracks.playstore"><img alt="Get it on F-Droid" src="https://fdroid.gitlab.io/artwork/badge/get-it-on.png" style="height: 4rem;vertical-align: middle;"></a>
     <br>
     <a href="https://github.com/OpenTracksApp/OpenTracks/releases"><img src="https://img.shields.io/github/v/tag/OpenTracksApp/OpenTracks" /></a>
     <br>
