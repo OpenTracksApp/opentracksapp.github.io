@@ -7,7 +7,7 @@
     <br>
     <a href="https://github.com/OpenTracksApp/OpenTracks/releases"><img src="https://img.shields.io/github/v/tag/OpenTracksApp/OpenTracks" /></a>
     <br>
-    <img src="https://img.shields.io/f-droid/v/de.dennisguse.opentracks.svg" />
+    <img src="https://img.shields.io/f-droid/v/de.dennisguse.opentracks.playstore.svg" />
     <br>
     <a href="https://github.com/OpenTracksApp/OpenTracks/commits/main"><img src="https://img.shields.io/github/commits-since/OpenTracksApp/OpenTracks/latest" /></a>
   </div>
